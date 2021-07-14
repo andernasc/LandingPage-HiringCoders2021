@@ -1,0 +1,157 @@
+
+body {
+    background-color: #964647;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    max-height: 100vh;
+    margin: 0 auto;
+    max-width: 2000px;
+  }
+  
+  h1{
+    margin: 0;
+    font-size: 3.2rem;
+  }
+  
+  h6{
+    font-size: 1em;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #964647;
+    border-radius: 0.5em;
+    padding: 5px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+  
+  button{
+    color: #fff;
+    background-color: #964647;
+    border-radius: 0.5em;
+    padding: 10px;
+    border: none;
+  }
+  
+  main{
+    background-color: #202020;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 43rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer{
+    background-color: #964647;
+    color: #f0eaea;
+    text-align: center;
+  }
+  
+  footer p{
+    font-size: 15px;
+    padding-bottom: 10px;
+    height: 100%;
+  }
+  
+
+  .nav-section{
+    background-color: #964647;
+  }
+  
+  .nav-section p{
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.2em;
+    width: 65vw;
+  }
+
+  #section-logo{
+    margin: 0 auto;
+    padding: 1em 1em 0 1em;
+    width: 50vw;
+    height:5vw;
+  }
+  
+  #section-mail{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    color: #f3eded;
+    background-color: #964647;
+    padding: 0.1;
+  }
+  
+  #section-mail h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    letter-spacing: -.09px;
+    padding-left: 2em;
+  }
+  
+  #section-signup{
+    border: #964647;
+    border-radius: 9em;
+    padding: 1em 3em;
+    box-shadow: 0 12px 12px #964647;
+    border-width: thin;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+    margin-right: 30rem;
+  }
+  
+ 
+  
+  @media screen and (max-width: 1280px)  {
+    main{
+      display: flex;
+      flex-direction: column;
+      background-image: url("images/background.png");
+    }
+  
+    h1{
+      font-size: 2.8rem;
+    }
+  
+    #section-signup{
+      padding: 3em 1em;
+      width: 21rem;
+      height: 27rem;
+    }
+  
+    #section-logo{
+      padding: 3em;
+      width: 11rem;
+      height: 1rem;
+    }
+
+
+    
+
+  }
+   
+  
+
+  
