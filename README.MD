@@ -22,7 +22,7 @@ Escolhi o tema de Moda Feminina para aplicar o projeto.
 
 ## Hospedado no Netlify
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/31411427-f366-4792-b306-17ced236718f/deploy-status)](https://app.netlify.com/sites/anclojamodaslandingpage/deploys)
 
 
 
