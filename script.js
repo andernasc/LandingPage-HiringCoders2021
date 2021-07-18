@@ -9,7 +9,8 @@ function armazenaDados(){
   };
   localStorage.setItem('usuario', JSON.stringify(usuario));
   bancoDados.push(usuario);
-  return(
-    window.location.href = "index.html"
-  )
+  
+  document.getElementById('cad').innerHTML = 'Cadastro Realizado com Sucesso!'
+
+  
 }
